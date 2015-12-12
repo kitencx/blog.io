@@ -4,8 +4,9 @@ title: Java7使用Lambda导致的泛型问题
 date: 2015-3-02
 categories: blog
 tags: [Android,Lambda,泛型]
-descrption:记录下Android开发用Lambda碰到的问题
+description:记录下Android开发用Lambda碰到的问题
 ---
+
 
 ##Java7使用Lambda导致的泛型问题
 
