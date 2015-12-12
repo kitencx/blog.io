@@ -7,7 +7,7 @@ baseurl: ""
 
 # About/contact
 owner: 
-  name: " kitencx”
+  name: "kitencx”
   email: kitencx@163.com
 
 # Data
@@ -42,7 +42,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: “kitencx”
+      author: "kitencx"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
