@@ -4,11 +4,10 @@ header-img: "img/facebook.jpg"
 tagline: "cn"  
 description: “To be continue”  
 baseurl: ""
-owner:"kitencx"
 
 # About/contact
 owner: 
-  name: "kitencx”
+  name: "kitencx"
   email: kitencx@163.com
 
 # Data
@@ -17,7 +16,7 @@ favicon: img/favicon.png
 
 douban_username: 
 twitter_username:
-github_username:kitencx
+github_username: kitencx
 facebook_username: 
 weibo_username: kitencx 
 zhihu_username: kitencx
