@@ -4,6 +4,8 @@ title: Java7使用Lambda导致的泛型问题
 date: 2015-3-02
 categories: blog
 tags: [Android,Lambda,泛型]
+descrption:记录下Android开发用Lambda碰到的问题
+---
 
 ##Java7使用Lambda导致的泛型问题
 
@@ -24,7 +26,6 @@ compileOptions {
 
 ```
 classpath ‘me.tatarka:gradle-retrolambda:3.2.0‘
-
 ```
 
 这里表示的是编译脚本的依赖
@@ -50,7 +51,6 @@ ApiService.getInstance().login(uname, pwd, new Listener<Account>() {
 		...
 	}
 })
-
 ```
 
 替换成Lambda后变成
