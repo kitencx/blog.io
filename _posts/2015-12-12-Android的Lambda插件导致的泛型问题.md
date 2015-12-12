@@ -41,7 +41,7 @@ apply plugin: ‘me.tatarka.retrolambda‘
 
 原代码是
 
-```
+```java
 ApiService.getInstance().login(uname, pwd, new Listener<Account>() {
 	@Override
 	onSuccess(Account data) {
@@ -56,7 +56,7 @@ ApiService.getInstance().login(uname, pwd, new Listener<Account>() {
 
 替换成Lambda后变成
 
-```
+```java
 ApiService.getInstance().login(uname, pwd, data -> {
 	...
 }, error -> {
